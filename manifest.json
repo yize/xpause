@@ -1,0 +1,25 @@
+{
+  "name": "XPause",
+  "description": "Pause JavaScript",
+  "short_name": "xp",
+  "version": "1.0.0",
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+O",
+        "mac": "Command+Shift+O"
+      }
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Open devtools first"
+  },
+  "manifest_version": 2
+}
