@@ -11,6 +11,15 @@ Steps:
 1. `Command + Shift + C` Start Chrome inspect mode.
 2. `Command + Shift + O` Pause Javascript
 
+## Why
+
+1. Why this?
+	Sometime, we use javascript to handle mouse-over mouse-out events, overlays or other elements only occurs when we `focus on something`. 
+2. Why not just use Chrome-devtools debugger `Pause script execution F8`?
+	When we'd been stepped in to a huge-minified javascript file, holy shit...
+3. Why it is slow when I am using this extension?
+	Please close all `Sources-files`. 
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT) © [yize.shc](https://nsole.co)
